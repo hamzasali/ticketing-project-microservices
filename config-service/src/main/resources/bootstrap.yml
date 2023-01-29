@@ -10,8 +10,11 @@ spring:
           uri: https://github.com/hamzasali/ticketing-project-microservices-config
           default-label: main
           username: hamzasali
-          password: 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
+          password: '{cipher}3982f9bfd11445cd46cd6241ed24d21b0f742a51611f7de32be94062d2e75d181b8d521a4e94ba5b7f33674e5f6404c7cca331184d5b7265d518e7b634c189ae'
       fail-fast: true
+
+encrypt:
+  key: cydeo
 
 server:
   port: 8888
